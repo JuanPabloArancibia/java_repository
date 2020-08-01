@@ -12,6 +12,7 @@ public class Email {
     private int defaultPasswordLength = 10;
     private String alternateEmail;
     private String companySuffix = "aeycompany.com";
+    private int[] myList = {1, 2, 3};
 
     //Constructor to receive the first name and last name
     public Email(String firstName, String lastName){
